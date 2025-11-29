@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+__pycache__/
+.pytest_cache/
+.DS_Store
+runs/
