@@ -26,3 +26,9 @@ pip install -r requirements.txt
 - **2.4** Training loop from scratch (no Trainer API)
 - **2.5** Sampling: temperature, top-k, top-p
 - **2.6** Evaluating loss on val set
+
+## Part 3 — Modernizing the Architecture
+- **3.1** **RMSNorm** (replace LayerNorm, compare gradients & convergence)
+- **3.2** **RoPE** (Rotary Positional Embeddings) — theory & code
+- **3.3** SwiGLU activations in MLP
+- **3.4** KV cache for faster inference
