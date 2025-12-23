@@ -32,3 +32,4 @@ pip install -r requirements.txt
 - **3.2** **RoPE** (Rotary Positional Embeddings) — theory & code
 - **3.3** SwiGLU activations in MLP
 - **3.4** KV cache for faster inference
+- **3.5** Sliding-window attention & **attention sink**
