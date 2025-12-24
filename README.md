@@ -33,3 +33,4 @@ pip install -r requirements.txt
 - **3.3** SwiGLU activations in MLP
 - **3.4** KV cache for faster inference
 - **3.5** Sliding-window attention & **attention sink**
+- **3.6** Rolling buffer KV cache for streaming
