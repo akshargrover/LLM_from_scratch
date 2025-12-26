@@ -36,3 +36,4 @@ pip install -r requirements.txt
 - **3.6** Rolling buffer KV cache for streaming
 
 ## Part 4 — Scaling Up
+- **4.1** Switching from byte-level to BPE tokenization
