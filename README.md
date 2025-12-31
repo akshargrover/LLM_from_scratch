@@ -38,3 +38,4 @@ pip install -r requirements.txt
 ## Part 4 — Scaling Up
 - **4.1** Switching from byte-level to BPE tokenization
 - **4.2** Gradient accumulation & mixed precision
+- **4.3** Learning rate schedules & warmup
