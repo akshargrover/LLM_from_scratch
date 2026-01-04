@@ -25,3 +25,5 @@ def make_loader(path: str, tokenizer: BPETokenizer, block_size: int, batch_size:
     ds = TextBPEBuffer(path, tokenizer, block_size)
     return DataLoader(ds, batch_size=batch_size, shuffle=shuffle, drop_last=True)
     
+
+    
