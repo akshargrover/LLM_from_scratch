@@ -39,3 +39,7 @@ pip install -r requirements.txt
 - **4.1** Switching from byte-level to BPE tokenization
 - **4.2** Gradient accumulation & mixed precision
 - **4.3** Learning rate schedules & warmup
+- **4.4** Checkpointing & resuming
+- **4.5** Logging & visualization (TensorBoard / wandb)
+
+## Part 5 — Mixture-of-Experts (MoE)
