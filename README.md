@@ -43,3 +43,4 @@ pip install -r requirements.txt
 - **4.5** Logging & visualization (TensorBoard / wandb)
 
 ## Part 5 — Mixture-of-Experts (MoE)
+- **5.1** MoE theory: expert routing, gating networks, and load balancing
