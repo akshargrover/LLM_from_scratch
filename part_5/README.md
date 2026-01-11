@@ -21,3 +21,7 @@ You can imagine it being called **after** the attention output, before the secon
   `L_aux = E * Σ ( importance * load )` where:
   - *importance* = avg gate probability per expert  
   - *load* = fraction of tokens routed as primary to that expert
+  
+---
+
+## **5.3 Distributed notes (single-GPU friendly)**
