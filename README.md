@@ -1,5 +1,26 @@
 # LLM_from_scratch
 
+## 📝 Project Summary
+A clean, foundational PyTorch implementation of a Transformer-based LLM. Designed to demystify core architectural mechanics like multi-head attention and tokenization without high-level library abstractions.
+
+### 🛠 Tech Stack
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Language** | Python | Primary language for model implementation and data processing. |
+| **Deep Learning** | PyTorch | Core framework for tensor operations, automatic differentiation, and model training. |
+| **Data Handling** | NumPy | Efficient numerical computation for data preprocessing and manipulation. |
+| **Preprocessing** | Tiktoken / Hugging Face | Tokenization and vocabulary management. |
+| **Monitoring** | TQDM | Progress bars for monitoring training and data processing loops. |
+| **Experimentation** | Weights & Biases (W&B) | Tracking training metrics, loss curves, and model checkpoints. |
+
+### ⚙️ Code Functionality
+* **Data Pipeline (`data/`):** Tokenization (BPE/character-level) and dataset loading with sliding window sequences.
+* **Model Architecture (`model/`):** Token/positional embeddings, Multi-Head Attention, FFN, and normalization.
+* **Training Loop (`train.py`):** Forward pass, cross-entropy loss calculation, and optimization.
+* **Inference (`generate.py`):** Next-token prediction engine with temperature, top-k, and top-p decoding strategies.
+
+--
+
 ## Part 0 — Foundations & Mindset
 - **0.1** Understanding the high-level LLM training pipeline (pretraining → finetuning → alignment)
 - **0.2** Hardware & software environment setup (PyTorch, CUDA/Mac, mixed precision, profiling tools)
